@@ -1,0 +1,5 @@
+server:
+  port: 9999
+mylog:
+  name: gk
+  age: 33
