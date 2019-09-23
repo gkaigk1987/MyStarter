@@ -1,1 +1,7 @@
 /.idea/
+/mylog-spring-boot-autoconfigure/target/
+/mylog-spring-boot-autoconfigure/mylog-spring-boot-autoconfigure.iml
+/mylog-spring-boot-starter/target/
+/mylog-spring-boot-starter/mylog-spring-boot-starter.iml
+/mylog-spring-boot-starter-test/target/
+/mylog-spring-boot-starter-test/mylog-spring-boot-starter-test.iml
