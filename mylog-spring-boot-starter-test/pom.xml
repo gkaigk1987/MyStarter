@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.2.1.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gk.starter</groupId>
@@ -70,7 +70,7 @@
     </build>
 
     <repositories>
-        <!-- 默认中央仓库 -->
+        <!-- 默认中央仓库，该配置不配置的话，则直接使用下面的私服配置 -->
         <repository>
             <id>central</id>
             <name>Central Repository</name>
@@ -81,7 +81,7 @@
             </snapshots>
         </repository>
 
-        <!-- 私服配置 -->
+        <!-- 私服配置，如果未配置中央仓库，私服中如果没有jar包会直接去中央仓库下载，然后在从私服下载到本地 -->
         <repository>
             <id>nexus</id>
             <name>Nexus Repository</name>
